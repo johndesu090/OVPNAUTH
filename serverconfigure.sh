@@ -26,7 +26,7 @@ echo ""
 echo "Please type the Database Name"
 read -p "DB Name: " -e -i elitepanel DBname
 echo ""
-echo "Okay, that's all I need. We are ready to setup your Panel now"
+echo "Success! Server Configured!"
 read -n1 -r -p "Press any key to continue..."
 
 ## Configure Website
