@@ -9,7 +9,7 @@
 
 clear
 echo "Welcome to JohnFordTV's Server Configure Script"
-echo "for Debian VPN"
+echo "for DebianElite VPN"
 echo ""
 echo "Please type the Server Prefix"
 read -p "Prefix: " -e -i Prefix01 ServerPrefix
@@ -18,13 +18,13 @@ echo "Please type the Database IP"
 read -p "IP: " -e -i 127.0.0.1 DBhost
 echo ""
 echo "Please type the Database Username"
-read -p "DB Username: " -e -i JohnFordTV DBuser
+read -p "DB Username: " -e -i root DBuser
 echo ""
 echo "Please type the Database Password"
 read -p "DB Password: " -e -i JohnFordTV DBpass
 echo ""
 echo "Please type the Database Name"
-read -p "DB Password: " -e -i JohnFordTV DBname
+read -p "DB Name: " -e -i elitepanel DBname
 echo ""
 echo "Okay, that's all I need. We are ready to setup your Panel now"
 read -n1 -r -p "Press any key to continue..."
